@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script> 
+         document.addEventListener('DOMContentLoaded', function() {
+            M.AutoInit();
+         });
+    </script>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materialize</title>
+</head>
+<body>
+  <script type="text/javascript" src="editcheck.js"></script>
+    <!-- Barra de navegación-->
+    <nav class="nav-extended">
+        <div class="nav-wrapper" >
+          
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger" ><i class="material-icons">menu</i></a>
+          <!-- Menu para dispositivos móviles-->
+          <img src="https://kubota.com.mx/images/logo/logo_kubota.png" alt="Kubota For Earth, For Life">
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            
+            <li><a href="#historia">Historia Kubota</a></li>
+            <li><a href="#mision">Misión y Visión</a></li>
+            <li><a href="https://web.facebook.com/KubotaMexico/?_rdc=1&_rdr">Facebook</a></li>
+            <li><a href="https://es.locator.kubota.com/#M%C3%A9xico" >Ubicación</a></li>
+            <li><a href="https://www.youtube.com/channel/UCQA3fYQ-TrNWqo5NMiIP5rA">YouTube</a></li>
+          </ul>
+        </div>
+        <div  id="co" class="nav-content">
+            <!--Menu principal-->
+          <ul class="tabs tabs-transparent">
+            
+            <li class="tab"><a href="#carrusel">TRACTORES</a></li>
+            <li class="tab"><a href="#carruseli">IMPLEMENTOS</a></li>
+            <li class="tab"><a href="#card">Gerente</a></li>
+            <li class="tab"><a href="#form">Cotizacion</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+       
+        <li><a href="#historia">Historia Kubota</a></li>
+        <li><a href="#mision">Misión y Visión</a></li>
+        <li><a href="https://web.facebook.com/KubotaMexico/?_rdc=1&_rdr">Facebook</a></li>
+        <li><a href="https://es.locator.kubota.com/#M%C3%A9xico" >Ubicación</a></li>
+        <li><a href="https://www.youtube.com/channel/UCQA3fYQ-TrNWqo5NMiIP5rA">YouTube</a></li>
+      </ul>
+      <!-- Galeria de imagenes en forma de carrusel-->
+      
+      <div id="carrusel" class="col s12">
+        <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="img/B1.png"></a>
+            <a class="carousel-item" href="#two!"><img src="img/B2.png"></a>
+            <a class="carousel-item" href="#three!"><img src="img/L1.png"></a>
+            <a class="carousel-item" href="#four!"><img src="img/M1.png"></a>
+            <a class="carousel-item" href="#five!"><img src="img/M2.png"></a>
+            <a class="carousel-item" href="#six!"><img src="img/M3.png"></a>
+            <a class="carousel-item" href="#seven!"><img src="img/M4.png"></a>
+            <a class="carousel-item" href="#seven!"><img src="img/M5.png"></a>
+            <a class="carousel-item" href="#seven!"><img src="img/M6.png"></a>
+            <a class="carousel-item" href="#seven!"><img src="img/M7.png"></a>
+            <a class="carousel-item" href="#seven!"><img src="img/M8.png"></a>
+            <a class="carousel-item" href="#seven!"><img src="img/M9.png"></a>
+            <a class="carousel-item" href="#seven!"><img src="img/M10.png"></a>
+          </div>
+      </div>
+      <div id="carruseli" class="col s12">
+        <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="img/i1.png"></a>
+            <a class="carousel-item" href="#two!"><img src="img/i2.png"></a>
+            <a class="carousel-item" href="#three!"><img src="img/i3.png"></a>
+            <a class="carousel-item" href="#four!"><img src="img/i4.png"></a>
+            <a class="carousel-item" href="#five!"><img src="img/i5.png"></a>
+            <a class="carousel-item" href="#six!"><img src="img/i6.png"></a>
+            <a class="carousel-item" href="#seven!"><img src="img/i7.png"></a>
+            <a class="carousel-item" href="#seven!"><img src="img/i8.png"></a>
+            <a class="carousel-item" href="#seven!"><img src="img/i9.png"></a>
+            <a class="carousel-item" href="#seven!"><img src="img/i10.png"></a>
+            
+          </div>
+      </div>
+    
+      <div id="card" class="col s12">
+          <!-- Tarjeta completa -->
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/yo.jpg">
+                  <span class="card-title">Marcelo Rojas</span>
+                  <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">tell</i></a>
+                </div>
+                <div class="card-content">
+                  <p>Telefono: 4181245056 </p>
+                  <p>Email: rojasmarcelo197@gmail.com </p>
+                </div>
+              </div>
+              </div>
+         </div>
+         
+      </div>
+    
+
+      <div id="form" class="col s12">
+          <!--Ejemplo de formulario-->
+        <div class="row">
+            <form class="col s12" onsubmit="return valforms(this)">
+              <h3>Datos Personales</h3>
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input id="icon_prefix" type="text" class="validate" size=20 maxlength=20 editcheck="req=Y=Por favor introduce tu nombre.;cvt=UT">
+                  <label for="icon_prefix">Nombres</label>
+               
+                </div>
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input id="icon_prefix" type="text" class="validate" size=20 maxlength=20 editcheck="req=Y=Por favor introduce tus Apellidos.;cvt=UT">
+                  <label for="icon_prefix">Apellidos</label>
+                </div>
+                
+              </div>
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">phone</i>
+                  <input id="icon_telephone" type="text" class="validate" size=10 maxlength=10 editcheck="req=Y=Por favor introduce tu Numero de telefono.;type=phone=Por favor introduce Un numero de telefono valido.;cvt=UT">
+                  <label for="icon_telephone">Telefono</label>
+                </div>
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">@</i>
+                  <input id="icon_prefix" type="email" class="validate" editcheck="req=Y=Por favor introduce tu Correo Electronico.;cvt=UT">
+                  <label for="icon_prefix">Correo Electronico</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix"></i>
+                  <input id="icon_prefix" type="text" class="validate" editcheck="req=Y=Por favor introduce tu Codigo Postal.;type=zip=Por favor introduce un código postal válido en Mexico.;cvt=UT">
+                  <label for="icon_prefix">Codigo Postal</label>
+                </div>
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">state</i>
+                  <input id="icon_telephone" type="tel" class="validate" editcheck="req=Y=Por favor introduce tu Estado de Procedencia.;cvt=UT">
+                  <label for="icon_telephone">Estado</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s6">
+                <select name="Producto">
+                   <option>Tractor</option>
+                   <option>Implemento</option>
+                  <option>Refaccion</option>
+                  </select>
+                  <label for="icon_telephone">Elige un producto</label>
+                </div>
+                <div class="input-field col s6">
+                  <select name="Modelo">
+                     <option>B2320D-MX</option>
+                     <option>M9540D</option>
+                    <option>M9540DTHQ</option>
+                    </select>
+                    <label for="icon_telephone">Elige el modelo del producto</label>
+                  </div>
+                </div>
+              <input type="submit" value="Enviar" onclick="valforms(this.form)" >
+            </form>
+          </div>
+         
+        <div id="error"></div>
+        <script src="app.js"></script>
+      </div>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header left-align teal-text text-lighten-5">Tractores Kubota</h1>
+        <div class="row left-align">
+          <h3 class=" left-align grey-text text-lighten-5">CONFIABLES, CALIDAD JAPONESA
+            QUE LOS RESPALDA</h3>
+        </div>
+        <div class="row center">
+          <a href="#co" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Pide tu Cotizacion</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="img/portada.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div id="mision" name="historia" class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"></h2>
+            <h5 id="" class="center">SOBRE KUBOTA MÉXICO</h5>
+
+            <p   class="light"> En Kubota México iniciamos operaciones en 2008 en la ciudad de Guadalajara, Jalisco, gracias a la inversión de la compañía Japonesa KUBOTA CORP, la inversión se hizo con la intención de formar esta empresa mexicana, para hacerla encargada del manejo y distribución de tractores Kubota en el país y Centroamérica, así como la capacitación y servicio a toda la red de distribuidores autorizados Kubota.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"></h2>
+            <h5 class="center">MISIÓN KUBOTA MÉXICO</h5>
+
+            <p class="light">Apoyar el desarrollo de la sociedad agrícola mexicana a través de la venta de tractores compactos e implementos compatibles con el medio ambiente, y diseñados para mejorar la calidad de vida.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"></h2>
+            <h5 class="center">VISIÓN KUBOTA MÉXICO</h5>
+
+            <p class="light">Posicionarnos en el mercado mexicano de los tractores compactos con tecnología de vanguardia ecológica y con la capacitación constante del capital humano.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/tractores.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div id="historia" class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Tractores Kubota</h4>
+          <p class="left-align light">Kubota tiene una larga historia en la fabricación de maquinaría agrícola para cultivos de maíz, y agricultura especializada. Nuestra tecnología japonesa ha destacado nuestros tractores por su excelente rendimiento, versatilidad y fiabilidad. Su equilibro perfecto y potencia, ofrecen una gran comodidad para realizar de manera eficiente el trabajo agrícola. La gama de productos continúa evolucionando a medida que respondemos a las necesidades cambiantes del mercado mexicano.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h1 class="header left-align teal-text text-lighten-3">Poder Japonés</h1>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/kubota2.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">KUBOTA MÉXICO S.A. DE C.V. </h5>
+          <p class="grey-text text-lighten-4">© 2008-2020 KUBOTA MÉXICO S.A. DE C.V.</p>
+
+
+        </div>
+        
+        <div class="col l5 s12">
+          <h5 class="white-text">INFORMACIÓN DE CONTACTO</h5>
+          <ul>
+            <li><a class="white-text" href="https://kubota.com.mx/">Kubota México SA de CV</a></li>
+            <li><a class="white-text" href="#!">Carretera San Martin de las Flores #520 INT 3C
+              Tlaquepaque, Jalisco C.P 45620</a></li>
+            <li><a class="white-text" href="#!">Teléfono: +52 33 3145 3340</a></li>
+            <li><a class="white-text" href="#!">Correo: kmdm_g.rh.kmx@kubota.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3">Juan Marcelo Rojas Ortiz</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
